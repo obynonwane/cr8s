@@ -1,5 +1,5 @@
-//ORM                                   :-diesel
+//ORM                                   :- diesel
 //check logs                            :- docker-compose logs -f app
 //setup migration and model             :- docker-compose exec app diesel setup
-//create migration                      :- docker-compose exec app diesel migration generate create_rustaceans
+//create migration                      :- docker-compose exec app diesel migration generate migration_name
 //list migrations                       :- docker-compose exec app diesel migration list
