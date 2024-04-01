@@ -1,2 +1,3 @@
-//ORM :-   diesel
-//check logs :- docker-compose logs -f app
+//ORM                                   :-diesel
+//check logs                            :- docker-compose logs -f app
+//setup migration and model             :- docker-compose exec app diesel setup
